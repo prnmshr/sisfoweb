@@ -1,0 +1,253 @@
+/* setup font */
+@font-face {
+    font-family: Poppins;
+    src: url('../../font/Poppins/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Poppins Med;
+    src: url('../../font/Poppins/Poppins-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Poppins Thin;
+    src: url('../../font/Poppins/Poppins-Thin.ttf') format('truetype');
+}
+
+.reg {
+    font-family: Poppins, sans-serif;
+}
+
+.thin {
+    font-family: "Poppins Thin", sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.med {
+    font-family: "Poppins Med", sans-serif;
+}
+
+/*style pada body */
+body {
+    margin: 0%;
+    position: relative;
+}
+
+/* style pada header atau jumbotron*/
+header {
+    position: relative;
+    background-color: #374254;
+    padding-bottom: 10px;
+}
+
+.main-logo {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: #ececec;
+    text-align: center;
+    line-height: normal;
+}
+
+
+.main-logo h1 {
+    font-family: "Poppins Med", sans-serif;
+}
+
+.main-logo h3 a {
+    font-family: Poppins, sans-serif;
+    color: #ececec;
+    text-decoration: none;
+}
+
+.main-logo a {
+    font-family: Poppins, sans-serif;
+    color: #ececec;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #adbbc6;
+}
+
+.logo-untan {
+    max-width: 15%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* style pada navbar */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0e1424;
+    padding: 5px;
+    box-shadow: 0 2px 2px 1px #0e1424;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline;
+    padding: 20px;
+    font-family: Poppins;
+}
+
+nav a {
+    text-decoration: none;
+    color: #e4e4e4;
+}
+
+/* style pada main */
+
+main {
+    background-color: #e4e4e4;
+}
+
+.image-main {
+    width: 100%;
+    height: auto;
+}
+
+/* style pada content  */
+
+.main-content {
+    display: flex;
+}
+
+#content {
+    padding: 10px;
+    background-color: #e4e4e4;
+}
+
+article {
+    font-family: Poppins, sans-serif;
+}
+
+.article {
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+    float: left;
+    margin-inline: 10px;
+}
+
+article p {
+    text-align: justify;
+}
+
+.card-content {
+    box-shadow: 0 4px 8px 0 #a7a7a7;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    padding: 30px;
+    margin: 20px;
+}
+
+.card-content h1 {
+    color: #0e1424;
+    font-family: "Poppins Med", sans-serif;
+}
+
+.card-content p {
+    color: #0e1424;
+    font-family: Poppins, sans-serif;
+}
+
+/* style pada collapse  */
+
+button {
+    display: block;
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+}
+
+.collapse-content {
+    display: none;
+}
+
+.collapse-content-hmsi {
+    display: none;
+}
+
+.collapse-content-hmsi h3 {
+    padding-inline: 20px;
+}
+
+/* style pada aside  */
+
+.aside-content {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    float: left;
+    margin-top: 7px;
+    margin-inline: 10px;
+    background-color: #e4e4e4;
+}
+
+.profile-pic {
+    max-width: 40%;
+    height: auto;
+    border-radius: 100px;
+}
+
+figure {
+
+    text-align: center;
+    display: block;
+    padding-block: 15px;
+    margin: 0 auto;
+}
+
+aside {
+    margin: 0;
+    background-color: #e4e4e4;
+    font-family: Poppins, sans-serif;
+}
+
+aside p {
+    font-size: 15px;
+    text-align: justify;
+    padding-inline: 15px;
+}
+
+aside h2 {
+    text-align: center;
+}
+
+.card-aside {
+    box-shadow: 0 4px 8px 0 #a7a7a7;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    margin-block: 20px;
+    padding: 15px;
+}
+
+/* footer */
+footer {
+    background-color: #cccccc;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 30px;
+}
+
+footer h5 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}

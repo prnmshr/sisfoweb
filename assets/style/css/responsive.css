@@ -1,0 +1,61 @@
+@media (max-width: 500px) {
+
+    /* style pada nav  */
+    nav {
+        padding: 15px;
+    }
+
+    nav a {
+        font-size: 13px;
+    }
+
+    nav ul {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    
+    a:hover {
+        color: #adbbc6;
+    }
+    
+    /* style pada jumbotron  */
+    .main-logo {
+        padding: 10px;
+    }
+
+    .logo-untan {
+        max-width: 45%;
+        height: auto;
+    }
+
+    /* style pada main  */
+    main {
+        margin: 0;
+    }
+
+    /* style pada konten */
+    .main-content {
+        margin: 0;
+        width: fit-content;
+        display: inline-block;
+    }
+
+    /* style pada article  */
+    .article {
+        width: 100%;
+        margin: 0;
+    }
+
+    /* style pada aside  */
+    .aside-content {
+        width: fit-content;
+    }
+    
+    .card-aside {
+        width: fit-content;
+        margin-inline: 30px;
+    }
+
+}
